@@ -23,7 +23,8 @@ var (
             [Result "1-0"]
             [WhiteElo "2795"]
 
-            1. Nf3 d5 2. g3 Bg4 3. b3 Nd7 4. Bb2 e6 5. Bg2 Ngf6 6. O-O c6
+            1. Nf3 d5 2. g3 Bg4 3. b3 Nd7 4. Bb2 e6 5. Bg2 Ngf6 6. O-O c6 {[%clk 0:02:56.4][%timestamp
+				24]}
             7. d3 Bd6 8. Nbd2 O-O 9. h3 Bh5 10. e3 h6 11. Qe1 Qa5 12. a3
             Bc7 13. Nh4 g5 14. Nhf3 e5 15. e4 Rfe8 16. Nh2 Qb6 17. Qc1 a5
             18. Re1 Bd6 19. Ndf1 dxe4 20. dxe4 Bc5 21. Ne3 Rad8 22. Nhf1 g4
@@ -69,6 +70,36 @@ var (
 			[EventType "swiss"]
 			
 			1. Nd5 exd5 (1... hxg5 2. Nxe7+ Nxe7) 2. Bxf6 hxg5 3. Bxe7 1-0`,
+		},
+		{
+			PostPos: unsafeFEN("rnb4r/pp1k2pp/3bN3/5p2/3Pp3/4P1PN/PPP2PBP/R1BQ1RK1 b - - 0 12"),
+			PGN: `
+			[Event "?"]
+			[Site "?"]
+			[Date "2021.01.03"]
+			[Round "?"]
+			[White "?"]
+			[Black "?"]
+			[Result "1-0"]
+			[TimeControl "180"]
+			[WhiteElo "?"]
+			[BlackElo "?"]
+			[Termination "? won by resignation"]
+
+			1. g3 {[%clk 0:03:00][%timestamp 0]} 1... e5 {[%clk 0:02:59.3][%timestamp 7]} 2.
+			Nh3 {[%clk 0:02:55.1][%timestamp 49]} 2... Nf6 {[%clk 0:02:58.8][%timestamp 5]}
+			3. Bg2 {[%clk 0:02:54.4][%timestamp 7]} 3... Bc5 {[%clk 0:02:56.4][%timestamp
+			24]} 4. O-O {[%clk 0:02:53][%timestamp 14]} 4... Ne4 {[%clk
+			0:02:54.4][%timestamp 20]} 5. Bxe4 {[%clk 0:02:50.4][%timestamp 26]} 5... d5
+			{[%clk 0:02:51.9][%timestamp 25]} 6. Bg2 {[%clk 0:02:47.2][%timestamp 32]} 6...
+			f5 {[%clk 0:02:49.2][%timestamp 27]} 7. d4 {[%clk 0:02:46][%timestamp 12]} 7...
+			e4 {[%clk 0:02:47.3][%timestamp 19]} 8. e3 {[%clk 0:02:43.3][%timestamp 27]}
+			8... Bd6 {[%clk 0:02:46.4][%timestamp 9]} 9. Nc3 {[%clk 0:02:39.9][%timestamp
+			34]} 9... Qf6 {[%clk 0:02:45.2][%timestamp 12]} 10. Nxd5 {[%clk
+			0:02:36.2][%timestamp 37]} 10... Qe6 {[%clk 0:02:40.2][%timestamp 50]} 11. Nxc7+
+			{[%clk 0:02:35.1][%timestamp 11]} 11... Kd7 {[%clk 0:02:37.5][%timestamp 27]}
+			12. Nxe6 {[%clk 0:02:35][%timestamp 1]} 1-0
+			`,
 		},
 	}
 )
